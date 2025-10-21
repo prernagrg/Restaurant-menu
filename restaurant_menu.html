@@ -37,11 +37,52 @@
     }
    #menu{
     text-align: center;
+    background-color: #fd9f425b;
    }
    #buff-momo{
     display: flex;
     padding:3rem;
+    justify-content: center;
+    background-color:#F0DFCC;
    }
+   #chicken-momo{
+     display: flex;
+    padding:3rem;
+    justify-content: center;
+    background-color: #CBB799;
+   }
+   #pani-puri{
+    display: flex;
+    padding:3rem;
+    justify-content: center;
+    background-color: #6F4D38;
+   }
+   #chatpate{
+    display: flex;
+    padding:3rem;
+    justify-content: center;
+    background-color: #B99976;
+   }
+   #coca-cola{
+    display: flex;
+    padding:3rem;
+    justify-content: center;
+    background-color: #D8CBC3;
+   }
+   #sprite{
+    display: flex;
+    padding:3rem;
+    justify-content: center;
+    background-color: #FFFFF0;
+   }
+  .form{
+    border: 2px solid black;
+    width: 20rem;
+    border-radius: 10px;
+    margin-left: 38rem;
+    padding: 2rem;
+    background-color: rgba(202, 125, 0, 0.078);
+  }
   </style>
   <body>
     <header>
@@ -67,38 +108,62 @@
       <section>
         <h2 id="menu">Menu</h2>
         <article id="buff-momo">
-          <img style="padding-right: 10rem;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_mCYybqalZiV1k0_jKljQjJUDts8z4tF51A&s" alt="buff momo">
+          <img style="padding-right: 10rem; height: 200px; width: 200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_mCYybqalZiV1k0_jKljQjJUDts8z4tF51A&s" alt="buff momo">
           <h3 style="padding-left:10rem; padding-right: 2rem;">Buff Momo</h3>
           <p>Price: RS 120</p>
         </article>
-        <article>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXdZqM5wAnJ9KzbbG9tEUuWzhP-bTNYi64Mg&s" alt="chicken momo">
-          <h3>Chicken Momo</h3>
+        <article id="chicken-momo">
+          <img style="padding-right: 10rem; height: 200px; width: 200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXdZqM5wAnJ9KzbbG9tEUuWzhP-bTNYi64Mg&s" alt="chicken momo">
+          <h3 style="padding-left:10rem; padding-right: 2rem;">Chicken Momo</h3>
           <p>Price: RS 150</p>
         </article>
-        <article>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFK8HUyrNiCenVtXB29_bKCOxet_yepa5l5A&s" alt="Pani puri">
-          <h3>Pani Puri </h3>
+        <article id="pani-puri">
+          <img style="padding-right: 10rem; height: 200px; width: 200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFK8HUyrNiCenVtXB29_bKCOxet_yepa5l5A&s" alt="Pani puri">
+          <h3 style="padding-left:10rem; padding-right: 2rem;">Pani Puri </h3>
           <p>Price: RS 100</p>
         </article>
-        <article>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7NyuRWu5X6ElUpYKqROvkPh-tVXMkx0dl-w&s" alt="Chatpate">
-          <h3>Chatpate </h3>
+        <article id="chatpate">
+          <img style="padding-right: 10rem; height: 200px; width: 200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7NyuRWu5X6ElUpYKqROvkPh-tVXMkx0dl-w&s" alt="Chatpate">
+          <h3 style="padding-left:10rem; padding-right: 2rem;">Chatpate </h3>
           <p>Price: RS 100</p>
         </article>
-        <article>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYXByeKcva4tuL6unMz_p2ReOnyJMcPZ1R1Q&s" alt="Cocacola">
-          <h3>Coca cola</h3>
+        <article id="coca-cola">
+          <img style="padding-right: 10rem; height: 200px; width: 200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYXByeKcva4tuL6unMz_p2ReOnyJMcPZ1R1Q&s" alt="Cocacola">
+          <h3 style="padding-left:10rem; padding-right: 2rem;">Coca cola</h3>
           <p>Price: RS 70</p>
         </article>
-        <article>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBn5tcfKrVp_2pBTNxbGUaBt5An6TjsWsETg&s" alt="Sprite">
-          <h3>Sprite </h3>
+        <article id="sprite">
+          <img style="padding-right: 10rem; height: 200px; width: 200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBn5tcfKrVp_2pBTNxbGUaBt5An6TjsWsETg&s" alt="Sprite">
+          <h3 style="padding-left:10rem; padding-right: 2rem;">Sprite </h3>
           <p>Price: RS 70</p>
         </article>
       </section>
-      <section>
-        <h2>Place Your order</h2>
+      <section style="padding:2rem 0rem 2rem 0rem; background-color: #b9997633;">
+        <div class="form">
+         <h2 style="padding: 1rem; text-align: center;">Place Your order</h2>
+        <form action="" method="">
+          <label for="buff-momo">1. Buff Momo</label>
+          <input type="number" name="buff-momo" min="0" max="10"> <br> <br>
+          <label for="chicken-momo">2. Chicken Momo</label>
+          <input type="number" name="chicken-momo" min="0" max="10"><br> <br>
+          <label for="pani-puri">3. Pani puri</label>
+          <input type="number" name="pani-puri" min="0" max="10"><br> <br>
+          <label for="chatpate">4. Chatpate</label>
+          <input type="number" name="chatpate" min="0" max="10"><br> <br>
+          <label for="coca-cola">5. Coca cola</label>
+          <input type="number" name="coca-cola" min="0" max="10"><br> <br>
+          <label for="sprite">6. Sprite</label>
+          <input type="number" name="sprite" min="0" max="10"><br> <br>
+          <label for="">Do you want ketchup for Momo ?</label><br> <br>
+          <input type="radio"  name="option" id="">yes
+          <input type="radio"  name="option" id="">No <br><br>
+          <label for="">Do you want any changes on the menu?</label><br><br>
+          <textarea name="" id="" placeholder="Write anything here..." rows="4" cols="30"></textarea><br><br>
+          <input style="padding: 8px;" type="submit"value="Go To Checkout" name="" id="">
+
+        </form>
+        </div>
+       
       </section>
     </main>
     <footer></footer>
